@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worklio.Tests", "Worklio.Tests\Worklio.Tests.csproj", "{05EA867C-B991-4884-AA75-3C6E97D333D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worklio.Entities", "Worklio.Entities\Worklio.Entities.csproj", "{6B8E4D35-D7BE-4C59-B406-3A5AD9674CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worklio.Services", "Worklio.Services\Worklio.Services.csproj", "{B8110E9C-28C6-4269-8C04-DBE23ABD5A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worklio.Logger", "Worklio.Logger\Worklio.Logger.csproj", "{DE46CD10-94FD-40ED-A4E5-C08753A5C037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worklio.Repositories", "Worklio.Repositories\Worklio.Repositories.csproj", "{F9B4D427-5D52-49D6-BC7C-31AE2BB8E9C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worklio", "Worklio\Worklio.csproj", "{127452E1-B4D1-4263-977D-7E324602978E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worklio.Helpers", "Worklio.Helpers\Worklio.Helpers.csproj", "{5080B2D2-F7C5-419B-B86A-F0935CCEB506}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05EA867C-B991-4884-AA75-3C6E97D333D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EA867C-B991-4884-AA75-3C6E97D333D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EA867C-B991-4884-AA75-3C6E97D333D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EA867C-B991-4884-AA75-3C6E97D333D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8E4D35-D7BE-4C59-B406-3A5AD9674CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8E4D35-D7BE-4C59-B406-3A5AD9674CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8E4D35-D7BE-4C59-B406-3A5AD9674CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8E4D35-D7BE-4C59-B406-3A5AD9674CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8110E9C-28C6-4269-8C04-DBE23ABD5A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8110E9C-28C6-4269-8C04-DBE23ABD5A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8110E9C-28C6-4269-8C04-DBE23ABD5A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8110E9C-28C6-4269-8C04-DBE23ABD5A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE46CD10-94FD-40ED-A4E5-C08753A5C037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE46CD10-94FD-40ED-A4E5-C08753A5C037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE46CD10-94FD-40ED-A4E5-C08753A5C037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE46CD10-94FD-40ED-A4E5-C08753A5C037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B4D427-5D52-49D6-BC7C-31AE2BB8E9C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B4D427-5D52-49D6-BC7C-31AE2BB8E9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B4D427-5D52-49D6-BC7C-31AE2BB8E9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B4D427-5D52-49D6-BC7C-31AE2BB8E9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127452E1-B4D1-4263-977D-7E324602978E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127452E1-B4D1-4263-977D-7E324602978E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127452E1-B4D1-4263-977D-7E324602978E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127452E1-B4D1-4263-977D-7E324602978E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5080B2D2-F7C5-419B-B86A-F0935CCEB506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5080B2D2-F7C5-419B-B86A-F0935CCEB506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5080B2D2-F7C5-419B-B86A-F0935CCEB506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5080B2D2-F7C5-419B-B86A-F0935CCEB506}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
